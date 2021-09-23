@@ -9,7 +9,7 @@ import (
 	"os"
 )
 
-func main() {
+func maain() {
 	var s1, s2 string
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Println("Enter first string to hash:")
